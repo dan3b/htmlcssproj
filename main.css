@@ -22,7 +22,7 @@ body {
 li {
     font-family: "Montserrart", sans-serif;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 19px;
     text-align: center;
     color: rgb(16, 10, 53);
     text-decoration: none;
@@ -32,7 +32,7 @@ li {
 
 }
 
-a, h1, h2, h3 {
+h1, h2, h3 {
         font-family: "Montserrart", sans-serif;
         font-weight: 500;
         font-size: 25px;
@@ -41,10 +41,10 @@ a, h1, h2, h3 {
         text-decoration: none;
 }
 
-p {
+p, a {
     font-family: "Montserrart", sans-serif;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 16x;
     justify-content: center;
     color: rgb(16, 10, 53);
     text-decoration: none;
@@ -91,9 +91,22 @@ header {
 .innerBox {
     width: 700px;
   height: 700px;
+  font-family: "Montserrart", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
 }
 
-
+.innerItem {
+    width: 700px;
+  height: 300px;
+  font-family: "Montserrart", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
