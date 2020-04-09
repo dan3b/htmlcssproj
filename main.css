@@ -22,7 +22,7 @@ body {
 li {
     font-family: "Montserrart", sans-serif;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 15px;
     text-align: center;
     color: rgb(16, 10, 53);
     text-decoration: none;
@@ -41,12 +41,21 @@ h1, h2, h3 {
         text-decoration: none;
 }
 
-p, a {
+p {
     font-family: "Montserrart", sans-serif;
     font-weight: 500;
-    font-size: 16x;
+    font-size: 16px;
     justify-content: center;
     color: rgb(16, 10, 53);
+    text-decoration: none;
+}
+
+a {
+    font-family: "Montserrart", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    justify-content: flex-end;
+    color: rgb(3, 1, 15);
     text-decoration: none;
 }
 
